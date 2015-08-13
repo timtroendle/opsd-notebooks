@@ -14,7 +14,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 1,
+   "execution_count": 8,
    "metadata": {
     "collapsed": true
    },
@@ -22,12 +22,8 @@
    "source": [
     "import urllib\n",
     "import os\n",
-    "\n",
     "import pandas\n",
-    "import pandas as pd\n",
-    "import numpy as np\n",
-    "randn = np.random.randn\n",
-    "from pandas import *"
+    "import numpy as np"
    ]
   },
   {
@@ -41,7 +37,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 2,
+   "execution_count": 9,
    "metadata": {
     "collapsed": true
    },
@@ -72,7 +68,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 3,
+   "execution_count": 10,
    "metadata": {
     "collapsed": false
    },
@@ -118,7 +114,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 4,
+   "execution_count": 11,
    "metadata": {
     "collapsed": false
    },
@@ -198,7 +194,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 5,
+   "execution_count": 12,
    "metadata": {
     "collapsed": true
    },
@@ -220,7 +216,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 6,
+   "execution_count": 13,
    "metadata": {
     "collapsed": false,
     "scrolled": true
@@ -230,7 +226,7 @@
     "\n",
     "# Read and merge data\n",
     "\n",
-    "resultDataSet = DataFrame();\n",
+    "resultDataSet = pandas.DataFrame();\n",
     "\n",
     "for tsoName, tsoConf in conf.iteritems():\n",
     "    for techName, url in tsoConf.iteritems():\n",
@@ -278,7 +274,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 7,
+   "execution_count": 14,
    "metadata": {
     "collapsed": true
    },
@@ -296,7 +292,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 8,
+   "execution_count": 15,
    "metadata": {
     "collapsed": true
    },
@@ -316,7 +312,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 9,
+   "execution_count": 16,
    "metadata": {
     "collapsed": false
    },
@@ -1287,7 +1283,7 @@
        "[55417 rows x 8 columns]"
       ]
      },
-     "execution_count": 9,
+     "execution_count": 16,
      "metadata": {},
      "output_type": "execute_result"
     }
@@ -1307,7 +1303,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 11,
+   "execution_count": 17,
    "metadata": {
     "collapsed": false
    },
@@ -2278,7 +2274,7 @@
        "[13848 rows x 8 columns]"
       ]
      },
-     "execution_count": 11,
+     "execution_count": 17,
      "metadata": {},
      "output_type": "execute_result"
     }
